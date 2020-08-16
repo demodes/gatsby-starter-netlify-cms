@@ -1,5 +1,5 @@
 const uri =
-    'mongodb+srv://<user>:<password>@cluster0-2pfxk.mongodb.net/test?retryWrites=true&w=majority';
+    'mongodb+srv://admin:xGqlzOoyWnVLjw8Z@netlify.w3qez.mongodb.net/sample_airbnb?retryWrites=true&w=majority'
   const client = new MongoClient(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true
