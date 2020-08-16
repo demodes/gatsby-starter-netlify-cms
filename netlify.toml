@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npm run build"
+  command = "npm run build && npm install 'mongodb' && npm install 'node-fetch'"
   functions = "lambda"
 [build.environment]
   NODE_VERSION = "12"
