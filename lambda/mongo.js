@@ -1,3 +1,8 @@
+/* eslint-disable */
+const fetch = require('node-fetch');
+const { MongoClient } = require('mongodb');
+
+async function getData() {
 const uri =
     'mongodb+srv://admin:xGqlzOoyWnVLjw8Z@netlify.w3qez.mongodb.net/sample_airbnb?retryWrites=true&w=majority'
   const client = new MongoClient(uri, {
